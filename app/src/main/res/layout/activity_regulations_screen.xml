@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      tools:context=".RegulationsScreen">
+
+    <TextView
+        android:id="@+id/regulations_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regulations"
+        android:textColor = "?android:textColorPrimary"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.06" />
+
+    <TextView
+        android:id="@+id/regulations"
+        android:layout_width="330dp"
+        android:layout_height="1100dp"
+        android:paddingTop="200dp"
+        android:textColor = "?android:textColorPrimary"
+        android:text="1. Condition on using the gym is following the regulations of gym and possessing valid season ticket or  one-time entry ticket to the gym.\n2. At one time in the gym can stay up to 70 people.\n3. The gym can be used by people who are at least 16 years old.\n4. All the equipment can be used only for their intended purpose.\n5. Bags and clothes should be left in the locker rooms. Taking locker keys for your home or leaving things in cabinets for longer time than using the gym is forbidden.\n6. Fee for losing a key is 20 zł.\n7. To participate in exercises sports outfit, clean sports shoes and towel are necessary.\n 8. Anyone willing to use gym should consult a physician regarding his health. Everyone in the gym exercise using machines on his own responsibility, management shall not be responsible for health of athletes.\n9. It is forbidden to exercise after consuming alcohol or other drugs and in case of feeling unwell.\n10. It is forbidden to bring stimulants, adjuvants, glass bottles and food.  11. Before starting exercise, check the condition of equipment. Every failure should be reported to staff. Do not attempt to repair equipment on your own.\n12. Before starting weight training, the warm up should be carried out. Loads should be picked according to recommendations of a doctor, trainer, health, age and sex. It is recommended to start the workout with light loads, gradually increasing the intensity of exercises.\n13. It is recommended not to exercise till exhaustion. If during training the athlete is feeling poorly (e.g chest pain, dizziness) he should immediately stop training and call for help.\n14. Before starting the training, you should ensure that the position is correct and if there are no other obstacles to start the exercise.\n15. Towel and parts of clothing should be kept away from moving parts of machine. Laces should be carefully tied. Long hair should be pinned up.\n16. Before starting the exercise on treadmill you should ensuper that there are no things lying on treadmill belt. You should navigate through the central part of belt. It is forbidden to jump off the treadmill while it’s running.\n17. Personal supervision is necessary during exercises with heavy loads and bench pressing.\n18. Rapid lowering of loads is forbidden. Do not put the dumbbells, barbells on upholstery.\n19. After finishing the exercise you should organise the workplace: put down the barbells, weights and dumbbells on racks.\n20. It is forbidden to move the exercise equipment.\n21. Basen AGH takes no responsibility for the lack of space due to attendance.\n22. Basen AHJ takes no responsibility for things left in the locker room.\n23. Purchase of season ticket/entrance ticket is unequivocal with accepting the gym regulations.\n24. The customer can use the gym once a day.\n25. Any business activity, including personal training in the gym is prohibited.\n26. Not complying with provisions of this regulations will result in the inability to use the gym in the future."
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.629"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="36dp"
+        android:layout_height="31dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.014"
+        app:srcCompat="@drawable/ic_previous" />
+
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+
